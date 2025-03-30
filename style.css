@@ -1,0 +1,56 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #F5F5DC; /* Vintage beige background */
+    color: #3B2F2F; /* Deep brown text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #002147; /* Navy blue */
+    color: #FFD700; /* Gold */
+    text-align: center;
+    padding: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Navigation */
+nav {
+    background: #8B4513; /* Saddle brown */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #FFD700;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #FFF;
+}
+
+/* Main Content */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #002147;
+    color: #FFD700;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
